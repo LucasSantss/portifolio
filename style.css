@@ -1,0 +1,259 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1f1f1f;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 98%;
+    display: block;
+}
+
+header{
+    padding: 10px 0px 0px;
+}
+
+header > .interface{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+
+
+header a{
+    color: #a5a5a5;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.organizer{
+    display: flex;
+}
+
+
+header nav ul{
+    padding-bottom: 100px; 
+}
+
+header nav li{
+    display: inline-block;
+    padding: 10px 55px;
+}
+
+header div > .logo{
+    margin: 0;
+    display: flex;
+}
+
+/* ---------LOGO----------- */
+header div img{
+    width: 250px;
+}
+
+
+
+/* --------CONTATO---------- */
+header .btn-contato{
+    padding: 0px 0px 0px 55px;
+}
+
+header .btn-contato button{
+    padding: 15px 40px ;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #7700ff;
+    color: #a5a5a5;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+/* -----------TEXTO INICIAL---------------- */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 4%;
+}
+main section >.face {
+    color:#a5a5a5;
+}
+main section >.face h1 {
+    font-size: 45px;
+}
+main section >.face h2 {
+    font-size: 30px;
+}
+
+/* -----------animação------ */
+
+article{
+    padding-right: 75px;
+}
+
+main >article >.animacao{
+    display: block;
+    width: 450px;
+}
+
+/* -------ANIMAÇÃO DO "OLÁ MUNDO"---------- */
+.txt-animado{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+.txt-animado span::before{
+    content: "";
+    animation: palavras 8s infinite;
+    color: #7700ff;
+}
+
+@keyframes palavras {
+    0%,50%{
+        content: "Hello World!";
+    }
+    51%,100%{
+        content: "Olá Mundo!";
+    }
+}
+
+.txt-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #7700ff;
+    right: -8px;
+    animation: cursor .9s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 8px);
+    background-color: #1f1f1f;
+}
+
+
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #7700ff;
+    }
+}
+
+@keyframes digita  {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%, 95%{
+        width: calc(100% + 10px);
+    }
+}
+
+/* -----------ICONES----------- */
+
+.icons{
+    font-size: 25px;
+}
+.icons a{
+    padding: 0px 5px;
+    font-size: 25px;
+    color: #7700ff;
+}
+.icons a:hover{
+    color: #a5a5a5;
+    transition: .5s;
+}
+
+/* ----------- SOBRE ------------- */
+
+body >.main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 15%;
+}
+
+body >main> .sobre{
+    font-size: 20px;
+    color: #a5a5a5;
+}
+
+body >main> .sobre h1{
+    font-size: 35px;
+    color: #7700ff;
+}
+
+body > h1{
+    padding: 11px 5px 12px 13px;
+    font-size: 35px;
+    color: #7700ff;
+}
+
+
+body>article{
+    display: flex;
+}
+
+.projects{
+    display: flex;
+}
+body>article>main>h1{
+    font-size: 35px;
+    color: #7700ff;
+    padding-bottom: 10px;
+}
+.card{
+    background-color:#4d4d4d ;
+    width: 20rem;
+    margin-right: 1.1%;
+    transition: .35s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.projects:hover > :not(:hover){
+    opacity: 0.2;
+    transform:scale(0.9);
+}
+
+.card-title{
+    color:#000000;
+}
+.card-text{
+    color: #fff;
+}
+
+.bts{
+    justify-content: space-between;
+}
+
+body>article>main{
+    display: flow-root;
+    height: 100%;
+}
+
