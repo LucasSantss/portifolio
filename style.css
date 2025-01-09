@@ -289,22 +289,23 @@ h3{
     font-size: 4rem;
     display: grid;
     position: relative;
-    width: 400px;
+    width: 250px;
     height: 450px;
     margin-right: 1.1%;
     background-color:#a5a5a5;
-    background: linear-gradient(to bottom,#4d4d4d , #a5a5a5);
     border-radius: 10px;
+    opacity: 0.9;
 }
 .tecnologias>h3{
+    text-align: center;
     height: 50px;
     margin: 2%;
-    padding: 5px 30%;
-    border-radius: 10px;
-    color: #4d4d4d;
-    background-color:#a5a5a5;
+    padding: 8px;
+    border-radius: 8px;
+    color: #a5a5a5;
+    background-color:#7700ff;
 }
 .tecnologias>i{
-    margin-left:40%;
+    margin-left:35%;
     justify-items: center;
 }
