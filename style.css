@@ -196,7 +196,7 @@ body >.main-sobre {
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
-    padding-top: 15%;
+    padding-top: 6%;
 }
 
 body >main> .sobre{
@@ -229,8 +229,9 @@ body>article>main>h1{
     padding-bottom: 10px;
 }
 .card{
+    position: relative;
     background-color:#4d4d4d ;
-    width: 20rem;
+    width: 21rem;
     margin-right: 1.1%;
     transition: .35s;
     opacity: 0.7;
@@ -241,6 +242,12 @@ body>article>main>h1{
     transform:scale(0.9);
 }
 
+.card-body{
+    position:relative;
+}
+.card-body.btn{
+    position: absolute;
+}
 .card-title{
     color:#000000;
 }
@@ -248,12 +255,20 @@ body>article>main>h1{
     color: #fff;
 }
 
-.bts{
-    justify-content: space-between;
+.btn-primary{
+    margin-bottom: 6%;
+    margin-left: 6%;
 }
+
 
 body>article>main{
     display: flow-root;
     height: 100%;
 }
 
+.icones{
+    font-size: 100px;
+}
+.github{
+    color:aliceblue;
+}
