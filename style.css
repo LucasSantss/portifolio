@@ -221,7 +221,9 @@ body>article{
 }
 
 .projects{
+    width: 100%;
     display: flex;
+    overflow-x:hidden;
 }
 body>article>main>h1{
     font-size: 35px;
@@ -266,9 +268,43 @@ body>article>main{
     height: 100%;
 }
 
+
 .icones{
-    font-size: 100px;
+    font-size: 40px;
 }
-.github{
-    color:aliceblue;
+
+.habilidades{
+    display: block;
+}
+
+.main-habilidades{
+    display: ruby;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+h3{
+    color: #fff;
+}
+.tecnologias{
+    font-size: 4rem;
+    display: grid;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    margin-right: 1.1%;
+    background-color:#a5a5a5;
+    background: linear-gradient(to bottom,#4d4d4d , #a5a5a5);
+    border-radius: 10px;
+}
+.tecnologias>h3{
+    height: 50px;
+    margin: 2%;
+    padding: 5px 30%;
+    border-radius: 10px;
+    color: #4d4d4d;
+    background-color:#a5a5a5;
+}
+.tecnologias>i{
+    margin-left:40%;
+    justify-items: center;
 }
