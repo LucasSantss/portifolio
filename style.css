@@ -337,6 +337,7 @@ body>article>main{
 
 .main-habilidades{
     display: flex;
+    justify-content: space-between;
 }
 h3{
     color: #fff;
@@ -384,9 +385,13 @@ h3{
     }
     .tecnologias{
         margin-bottom: 22px;
+        text-align: justify;
     }
     .projects{
         max-width: 41%;
+    }
+    .habilidades{
+        justify-items: center;
     }
     .main-habilidades{
         display: inline-grid;
