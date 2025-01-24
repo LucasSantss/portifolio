@@ -181,6 +181,11 @@ main >article >.animacao{
     }
 }
 
+
+.inicial{
+    align-items: center;
+    justify-content: space-between;
+}
 /* -----------ICONES----------- */
 
 .icons{
