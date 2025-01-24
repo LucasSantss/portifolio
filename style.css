@@ -401,12 +401,10 @@ h3{
     .logo{
         width: 50%;
     }
-    .animacao{
-        justify-items: center;
-        text-align:-webkit-center;
-    }
     .inicial{
         display: block;
+        justify-items: center;
+        text-align:-webkit-center;
     }
     .tecnologias{
         margin-bottom: 22px;
