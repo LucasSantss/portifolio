@@ -27,6 +27,7 @@ body{
     transform:scale(1);
 }
 
+
 .interface{
     max-width: 98%;
     display: block;
@@ -291,11 +292,22 @@ body>article>main>h1{
     transition: .35s;
     opacity: 0.7;
     cursor: pointer;
-    transition: opacity 0.5s ease-out;
 }
 .card.fade-out{
     opacity: 0.1;
     transition: .35s;
+}
+.projects :nth-child(3){
+    transition-delay: 100ms;
+}
+.projects :nth-child(4){
+    transition-delay: 200ms;
+}
+.projects :nth-child(5){
+    transition-delay: 300ms;
+}
+.projects :nth-child(6){
+    transition-delay: 400ms;
 }
 
 .projects:hover > :not(:hover){
@@ -373,11 +385,15 @@ h3{
 }
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1160px) {
     main{
         padding: 10% 3%;
         text-align: center;
         justify-items: center;
+    }
+    .interface{
+        justify-items: center;
+        text-align:-webkit-center;
     }
     .organizer{
         display: none;
