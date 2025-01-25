@@ -23,10 +23,9 @@ body{
 .show{
     opacity: 1;
     filter: blur(0);
-    transition: all 0.5s;
+    transition: all 1s;
     transform:scale(1);
 }
-
 
 .interface{
     max-width: 98%;
@@ -77,11 +76,10 @@ header div > .logo{
 }
 
 /* ---------LOGO----------- */
+
 header div img{
     width: 250px;
 }
-
-
 
 /* --------CONTATO---------- */
 header .btn-contato{
@@ -105,12 +103,11 @@ header .btn-contato button:hover{
 }
 
 
-
 /* -----------TEXTO INICIAL---------------- */
 main{
     display: flex;
     align-items: center;
-    padding: 4% 4%;
+    padding: 6% 4%;
 }
 main section >.face {
     color:#a5a5a5;
@@ -356,9 +353,7 @@ body>article>main{
     display: flex;
     justify-content: space-between;
 }
-h3{
-    color: #fff;
-}
+
 .tecnologias{
     font-size: 4rem;
     display: grid;
@@ -366,7 +361,7 @@ h3{
     width: 250px;
     height: 450px;
     margin-right: 1.1%;
-    background-color:#a5a5a5be;
+    background-color:#4d4d4d;
     border-radius: 10px;
     opacity: 0.9;
 }

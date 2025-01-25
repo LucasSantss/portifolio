@@ -43,7 +43,7 @@ const myObserver = new IntersectionObserver((entries) =>{
             entry.target.classList.remove('show')
         }
     }))
-    console.log(entries)
 })
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => myObserver.observe(element))
+
