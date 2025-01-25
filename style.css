@@ -410,16 +410,10 @@ h3{
         margin-bottom: 22px;
         text-align: justify;
     }
-    .projects{
-        max-width: 80%;
-    }
     .habilidades{
         justify-items: center;
     }
     .main-habilidades{
         display: inline-grid;
-    }
-    body>article>main{
-        display: list-item;
     }
 }
