@@ -399,7 +399,7 @@ h3{
         display: none;
     }
     .logo{
-        width: 50%;
+        width: 40%;
     }
     .inicial{
         display: block;
@@ -411,7 +411,7 @@ h3{
         text-align: justify;
     }
     .projects{
-        max-width: 100%;
+        max-width: 80%;
     }
     .habilidades{
         justify-items: center;
