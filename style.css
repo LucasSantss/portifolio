@@ -311,7 +311,7 @@ body>article>main>h1{
 .projects:hover > :not(:hover){
     transition: .35s;
     opacity: 0.2;
-    transform:scale(0.99);
+    transform:scale(0.95);
 }
 
 .card-body{
