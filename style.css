@@ -95,6 +95,7 @@ header .btn-contato button{
     border-radius: 12px;
     border: 0;
     cursor: pointer;
+    display: none;
 }
 
 header .btn-contato button:hover{
