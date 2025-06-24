@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #1f1f1f;
+    background-color: #131212;
     height: 100vh;
 }
 
@@ -18,13 +18,13 @@ body {
     opacity: 0;
     filter: blur(5px);
     transition: all 0.5s;
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
-    transition: all 1s;
+    transition: all 0.5s;
     transform: scale(1);
 }
 
@@ -64,7 +64,7 @@ header a:hover {
 
 
 header nav ul {
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 header nav li {
@@ -266,7 +266,7 @@ body>article {
 
 .pre-btn,
 .nxt-btn {
-    color: #1f1f1f;
+    color: #131212;
     border: none;
     width: 3vw;
     height: 100px;
@@ -274,7 +274,7 @@ body>article {
     position: absolute;
     justify-content: center;
     align-items: center;
-    background: #1f1f1f;
+    background: #131212;
     cursor: pointer;
     z-index: 9;
 }
@@ -349,6 +349,10 @@ body>article>main>h1 {
     transition-delay: 400ms;
 }
 
+.projects :nth-child(7) {
+    transition-delay: 500ms;
+}
+
 .projects:hover> :not(:hover) {
     transition: .25s;
     opacity: 0.2;
@@ -416,9 +420,17 @@ body>article>main {
 }
 
 .tecnologias>i {
+    color: #a5a5a5;
     margin-left: 35%;
     justify-items: center;
 }
+
+.tecnologias>i:hover {
+    color: #fff;
+    transition: 0.5s;
+    inset: "colored";
+}
+
 
 
 @media screen and (max-width: 1160px) {
